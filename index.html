@@ -619,15 +619,15 @@
 </nav>
 
 <!-- HERO -->
-<section class="hero">
-  <div class="hero-bg"></div>
+<section class="hero" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1800&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
+  <div class="hero-bg" style="background: linear-gradient(to bottom, rgba(10,9,6,.7), rgba(10,9,6,.85));"></div>
   <div class="hero-lines"></div>
   <div class="hero-content">
     <p class="hero-eyebrow">Luxury Event Catering · Arizona</p>
     <h1 class="hero-name">Chef <em>Oz</em></h1>
     <p class="hero-sub">Where Every Meal Becomes a Memory</p>
     <div class="hero-divider"></div>
-    <p class="hero-location">Mediterranean · Turkish · Steakhouse</p>
+    <p class="hero-location">Mediterranean · Turkish Cuisine</p>
     <a href="#contact" class="hero-cta">Book Your Event</a>
   </div>
   <div class="scroll-hint">Scroll</div>
@@ -636,26 +636,21 @@
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="about-visual">
-    <div class="about-frame">
-      <span class="about-frame-icon">Oz</span>
-    </div>
-    <div class="about-badge">
-      <span class="about-badge-num">11</span>
-      <span class="about-badge-txt">Years of<br>Excellence</span>
+    <div class="about-frame" style="background-image: url('https://images.unsplash.com/photo-1555244162-803834f70033?w=800&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
     </div>
   </div>
   <div class="about-text">
     <p class="section-tag">About Chef Oz</p>
     <h2 class="section-title">Özkan Öncü<br><em>Chef Oz</em></h2>
     <div class="gold-line"></div>
-    <p>With over 11 years of culinary expertise, Chef Oz brings the finest flavors of Mediterranean, Turkish, and Steakhouse cuisine to the most prestigious events across Arizona.</p>
+    <p>Chef Oz brings the finest flavors of Mediterranean and Turkish cuisine to the most prestigious events across Arizona.</p>
     <p>Born from a passion for authentic flavors and refined presentation, Chef Oz transforms every gathering — from intimate private dinners to grand weddings — into an unforgettable culinary experience.</p>
     <p>Currently serving as an Executive Chef, Özkan combines classical techniques with contemporary elegance to create menus that delight every palate.</p>
     <div class="about-specialties">
       <span class="specialty-pill">Mediterranean</span>
       <span class="specialty-pill">Turkish Cuisine</span>
-      <span class="specialty-pill">Steakhouse</span>
       <span class="specialty-pill">Middle Eastern</span>
+      <span class="specialty-pill">Private Chef</span>
     </div>
   </div>
 </section>
@@ -710,7 +705,7 @@
   <div class="menu-tabs">
     <button class="menu-tab active" onclick="switchTab('mediterranean', this)">Mediterranean</button>
     <button class="menu-tab" onclick="switchTab('turkish', this)">Turkish</button>
-    <button class="menu-tab" onclick="switchTab('steakhouse', this)">Steakhouse</button>
+    <button class="menu-tab" onclick="switchTab('middleeastern', this)">Middle Eastern</button>
   </div>
 
   <div class="menu-panel active" id="panel-mediterranean">
@@ -791,40 +786,40 @@
     </div>
   </div>
 
-  <div class="menu-panel" id="panel-steakhouse">
+  <div class="menu-panel" id="panel-middleeastern">
     <div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Wagyu Beef Tartare</div><div class="menu-item-desc">Truffle, quail egg, crostini</div></div>
+        <div><div class="menu-item-name">Hummus Platter</div><div class="menu-item-desc">Roasted garlic, olive oil, warm pita</div></div>
         <div class="menu-item-dot"></div>
       </div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Tomahawk Ribeye</div><div class="menu-item-desc">Dry-aged, compound butter, au jus</div></div>
+        <div><div class="menu-item-name">Lamb Shawarma</div><div class="menu-item-desc">Spiced slow-roasted lamb, tahini sauce</div></div>
         <div class="menu-item-dot"></div>
       </div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Filet Mignon</div><div class="menu-item-desc">Truffle demi-glace, potato gratin</div></div>
+        <div><div class="menu-item-name">Falafel Station</div><div class="menu-item-desc">Crispy falafel, tzatziki, pickled vegetables</div></div>
         <div class="menu-item-dot"></div>
       </div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Prime Rib Station</div><div class="menu-item-desc">Live carving, horseradish cream</div></div>
+        <div><div class="menu-item-name">Kofta Kebab</div><div class="menu-item-desc">Spiced ground lamb, grilled flatbread</div></div>
         <div class="menu-item-dot"></div>
       </div>
     </div>
     <div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Lobster Bisque</div><div class="menu-item-desc">Cream, cognac, chive oil</div></div>
+        <div><div class="menu-item-name">Fattoush Salad</div><div class="menu-item-desc">Sumac, pomegranate, crispy pita chips</div></div>
         <div class="menu-item-dot"></div>
       </div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Creamed Spinach</div><div class="menu-item-desc">Parmesan, garlic, nutmeg</div></div>
+        <div><div class="menu-item-name">Mansaf</div><div class="menu-item-desc">Lamb, jameed yogurt sauce, saffron rice</div></div>
         <div class="menu-item-dot"></div>
       </div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Truffle Mac & Cheese</div><div class="menu-item-desc">Black truffle, gruyère, breadcrumbs</div></div>
+        <div><div class="menu-item-name">Mujaddara</div><div class="menu-item-desc">Lentils, caramelized onion, cumin rice</div></div>
         <div class="menu-item-dot"></div>
       </div>
       <div class="menu-item">
-        <div><div class="menu-item-name">Chocolate Lava Cake</div><div class="menu-item-desc">Valrhona chocolate, vanilla bean ice cream</div></div>
+        <div><div class="menu-item-name">Baklava & Basbousa</div><div class="menu-item-desc">Semolina cake, rose water, pistachios</div></div>
         <div class="menu-item-dot"></div>
       </div>
     </div>
@@ -837,28 +832,23 @@
   <h2 class="section-title">Events & <em>Creations</em></h2>
   <div class="gold-line"></div>
   <div class="gallery-grid">
-    <div class="gallery-item">
+    <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=800&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
       <div class="gallery-overlay"></div>
-      <p class="gallery-placeholder">Your signature<br>dish photo here</p>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
       <div class="gallery-overlay"></div>
-      <p class="gallery-placeholder">Wedding<br>reception</p>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
       <div class="gallery-overlay"></div>
-      <p class="gallery-placeholder">Buffet<br>setup</p>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1484980972926-edee96e0960d?w=600&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
       <div class="gallery-overlay"></div>
-      <p class="gallery-placeholder">Turkish<br>mezze</p>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" style="background-image: url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
       <div class="gallery-overlay"></div>
-      <p class="gallery-placeholder">Steakhouse<br>carving</p>
     </div>
   </div>
-  <p style="font-size:11px;color:var(--text-light);margin-top:20px;font-style:italic;font-family:'Cormorant Garamond',serif">* Add your event photos to showcase your work</p>
+  <p style="font-size:11px;color:var(--text-light);margin-top:20px;font-style:italic;font-family:'Cormorant Garamond',serif">* Your own event photos coming soon</p>
 </section>
 
 <!-- CONTACT -->
